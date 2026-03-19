@@ -27,7 +27,7 @@ Para correr este proyecto en tu entorno local, necesitas tener [Node.js](https:/
 ### 1. Clonar el repositorio e instalar dependencias
 Abre tu terminal y ejecuta:
 ```bash
-git clone <URL_DE_TU_REPOSITORIO>
+git clone https://github.com/Rappu10/NeoWallet-UX..git
 cd hospital-sistema
 npm install
 
