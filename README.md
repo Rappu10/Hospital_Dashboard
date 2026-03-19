@@ -30,3 +30,12 @@ Abre tu terminal y ejecuta:
 git clone <URL_DE_TU_REPOSITORIO>
 cd hospital-sistema
 npm install
+
+2. Iniciar el servidor de Base de Datos (Terminal 1)
+El sistema requiere que la API de datos esté corriendo para mostrar la información. En la raíz del proyecto, ejecuta:
+npx json-server --watch db.json --port 4000
+
+3. Iniciar la aplicación React (Terminal 2)
+Abre una segunda terminal en la misma carpeta y ejecuta el entorno de desarrollo de Vite:
+npm run dev
+El sistema estará disponible en tu navegador en: http://localhost:5173/
